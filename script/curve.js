@@ -4,33 +4,33 @@ var dataCurve = {
     datasets: [{
             data: cases,
             label: "الحالات",
-            borderColor: "#3e95cd",
+            borderColor: "#3f51b5",
             fill: false
         }, {
             data: activeCases,
             label: "الحالات النشطة",
-            borderColor: "#8e5ea2",
+            borderColor: "#f9a825",
             fill: false
         }, {
             data: deaths,
             label: "الوفيات",
-            borderColor: "#3cba9f",
+            borderColor: "#f44336",
             fill: false
         }, {
             data: recoverd,
             label: "المتعافون",
-            borderColor: "#e8c3b9",
+            borderColor: "#2e7d32",
             fill: false
         }, {
             data: predections,
             label: "التوقعات",
-            borderColor: "#c45850",
+            borderColor: "#808e95",
             fill: false
         },
         {
             data: beds,
             label: "الأسرة المتاحة في المستشفيات",
-            borderColor: "green",
+            borderColor: "#9c27b0",
             fill: false
         }
     ]
