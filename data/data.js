@@ -135,7 +135,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "الدار البيضاء ـ سطات",
-        number: 159
+        number: 164
     },
     {
         region: "درعة ـ تافيلالت",
@@ -147,7 +147,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "فاس ـ مكناس",
-        number: 91
+        number: 92
     },
     {
         region: "كيلميم ـ واد نون",
@@ -159,7 +159,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "مراكش ـ أسفي",
-        number: 93
+        number: 99
     },
     {
         region: "الشرق",
@@ -167,7 +167,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "الرباط ـ سلا ـ القنيطرة",
-        number: 88
+        number: 97
     },
     {
         region: "سوس ماسة",
@@ -175,7 +175,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "طنجة ـ تطوان ـ الحسيمة",
-        number: 38
+        number: 39
     }
 ]
 var testedCases=2195;
