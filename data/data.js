@@ -178,3 +178,4 @@ var geographiqueDistribution = [{
         number: 38
     }
 ]
+var testedCases=2195;

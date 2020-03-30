@@ -27,16 +27,8 @@ for (let i = 0; i < geographiqueDistribution.length; i++) {
 var tableBody=document.getElementById("dist-geo");
 tableBody.innerHTML=innerHtml;
 
-
-/*
-
-<tr>
-<td>Thornton</td>
-<td>@fat</td>
-</tr>
-<tr>
-
-<td>the Bird</td>
-<td>@twitter</td>
-</tr>
-*/
+//latest statistics
+document.getElementById("cases").innerText=cases[cases.length-1];
+document.getElementById("recovered").innerText=recoverd[recoverd.length-1];
+document.getElementById("deaths").innerText=deaths[deaths.length-1];
+document.getElementById("tested-cases").innerText=testedCases;
