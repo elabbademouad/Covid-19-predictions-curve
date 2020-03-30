@@ -40,7 +40,7 @@ var myChart = new Chart(ctx, {
     data: dataCurve,
     options: {
         title: {
-            display: true,
+            display: false,
             text: ''
         }
     }
