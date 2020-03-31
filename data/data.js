@@ -66,7 +66,7 @@ var cases = [
     402,
     479,
     556,
-    574
+    602
 
 ];
 var deaths = [
@@ -99,7 +99,7 @@ var deaths = [
     25,
     26,
     33,
-    33
+    36
 ];
 var recoverd = [
     0,
@@ -131,7 +131,7 @@ var recoverd = [
     12,
     13,
     15,
-    15
+    24
 ];
 var geographiqueDistribution = [{
         region: "بني ملال ـ خنيفرة",
@@ -139,11 +139,11 @@ var geographiqueDistribution = [{
     },
     {
         region: "الدار البيضاء ـ سطات",
-        number: 167
+        number: 176
     },
     {
         region: "درعة ـ تافيلالت",
-        number: 8
+        number: 11
     },
     {
         region: "الداخلة ـ وادي الذهب",
@@ -151,7 +151,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "فاس ـ مكناس",
-        number: 98
+        number: 105
     },
     {
         region: "كيلميم ـ واد نون",
@@ -163,7 +163,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "مراكش ـ أسفي",
-        number: 104
+        number: 107
     },
     {
         region: "الشرق",
@@ -171,15 +171,15 @@ var geographiqueDistribution = [{
     },
     {
         region: "الرباط ـ سلا ـ القنيطرة",
-        number: 98
+        number: 105
     },
     {
         region: "سوس ماسة",
-        number: 18
+        number: 17
     },
     {
         region: "طنجة ـ تطوان ـ الحسيمة",
         number: 39
     }
 ]
-var testedCases=2227;
+var testedCases=2298;
