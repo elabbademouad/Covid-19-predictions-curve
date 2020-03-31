@@ -28,7 +28,16 @@ var tableBody=document.getElementById("dist-geo");
 tableBody.innerHTML=innerHtml;
 
 //latest statistics
-document.getElementById("cases").innerText=cases[cases.length-1];
-document.getElementById("recovered").innerText=recoverd[recoverd.length-1];
-document.getElementById("deaths").innerText=deaths[deaths.length-1];
+var casesCount=cases[cases.length-1];
+var recoverdCount=recoverd[recoverd.length-1];
+var deathsCount=deaths[deaths.length-1];
+
+var recoverdPercentage=recoverdCount*100/casesCount;
+var deathsPercentage=deathsCount*100/casesCount;
+document.getElementById("cases").innerText=casesCount;
+document.getElementById("recovered").innerText=recoverdCount;
+document.getElementById("deaths").innerText=deathsCount;
 document.getElementById("tested-cases").innerText=testedCases;
+
+document.getElementById("recovered-per").innerText=recoverdPercentage.toFixed(2)+"% نسبة التعافي";
+document.getElementById("deaths-per").innerText=deathsPercentage.toFixed(2)+"% نسبة الوفيات";

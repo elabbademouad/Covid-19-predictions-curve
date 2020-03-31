@@ -8,11 +8,14 @@
     <title>Covid-19 Predictions Curve</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Almarai&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="font-family: 'Almarai', sans-serif;">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
-    <div style="width: 100%;height: auto;" class="bg-dark text-light text-center p-2"><h3>الوضعية الوبائية لفيروس كورونا بالمغرب</h3></div>
+    <div style="width: 100%;height: auto;" class="bg-dark text-light text-center p-2">
+        <h3>الوضعية الوبائية لفيروس كورونا بالمغرب</h3>
+    </div>
     <div class="container text-center p-2">
         <div class="row">
             <div class="col-lg-4 col-md-3 col-sm-12 ">
@@ -22,10 +25,16 @@
                     </div>
                     <div class="card-body p-0">
                         <ul class="list-group p-0">
-                            <li class="list-group-item p-2"><span id="cases" class="badge badge-primary"></span> الحالات المؤكدة</li>
-                            <li class="list-group-item p-2"><span id="recovered" class="badge badge-success"></span> المتعافون</li>
-                            <li class="list-group-item p-2"><span id="deaths" class="badge badge-danger"></span> الوفيات</li>
-                            <li class="list-group-item p-2"><span id="tested-cases"class="badge badge-info"></span>  الحالات المستبعدة بعد التحليل</li>
+                            <li class="list-group-item p-2"><span id="cases" class="badge badge-primary"></span> الحالات
+                                المؤكدة</li>
+                            <li class="list-group-item p-2"><span id="recovered" class="badge badge-success"></span>
+                                المتعافون</li>
+                            <li class="list-group-item p-2"><span id="deaths" class="badge badge-danger"></span> الوفيات
+                            </li>
+                            <li class="list-group-item p-2"><span id="tested-cases" class="badge badge-info"></span>
+                                الحالات المستبعدة بعد التحليل</li>
+                            <span id="recovered-per" class="badge badge-success"></span>
+                            <span id="deaths-per" class="badge badge-danger"></span>
                         </ul>
                         <h3> </h3>
                     </div>

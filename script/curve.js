@@ -1,3 +1,4 @@
+Chart.defaults.global.defaultFontFamily ="Almarai', sans-serif";
 var ctx = document.getElementById('covid-curve');
 var dataCurve = {
     labels: dates,
