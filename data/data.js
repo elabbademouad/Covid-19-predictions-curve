@@ -68,7 +68,7 @@ var cases = [
     479,
     556,
     617,
-    638
+    642
 
 ];
 var deaths = [
@@ -102,7 +102,7 @@ var deaths = [
     26,
     33,
     36,
-    36
+    37
 ];
 var recoverd = [
     0,
@@ -135,15 +135,15 @@ var recoverd = [
     13,
     15,
     24,
-    24
+    26
 ];
 var geographiqueDistribution = [{
         region: "بني ملال ـ خنيفرة",
-        number: 20
+        number: 21
     },
     {
         region: "الدار البيضاء ـ سطات",
-        number: 179
+        number: 181
     },
     {
         region: "درعة ـ تافيلالت",
@@ -175,7 +175,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "الرباط ـ سلا ـ القنيطرة",
-        number: 111
+        number: 112
     },
     {
         region: "سوس ماسة",
@@ -186,4 +186,4 @@ var geographiqueDistribution = [{
         number: 44
     }
 ]
-var testedCases=2561;
+var testedCases=2653;
