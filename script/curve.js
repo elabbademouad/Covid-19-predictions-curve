@@ -27,12 +27,6 @@ var dataCurve = {
             label: "التوقعات",
             borderColor: "#808e95",
             fill: false
-        },
-        {
-            data: beds,
-            label: "الأسرة المتاحة في المستشفيات",
-            borderColor: "#9c27b0",
-            fill: false
         }
     ]
 };
