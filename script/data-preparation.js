@@ -10,7 +10,7 @@ for (let i = 0; i < cases.length; i++) {
 var regresstionCoef = calculateRegressionCoef(cases);
 
 
-for (let i = 0; i < cases.length +3; i++) {
+for (let i = 0; i < cases.length +2; i++) {
     predections.push(Math.round(regresstionCoef.a + Math.pow(regresstionCoef.b, i)));
 }
 
