@@ -70,7 +70,7 @@ var cases = [
     556,
     617,
     654,
-    691
+    708
 
 ];
 var deaths = [
@@ -139,7 +139,7 @@ var recoverd = [
     15,
     24,
     29,
-    30
+    31
 ];
 var geographiqueDistribution = [{
         region: "بني ملال ـ خنيفرة",
@@ -147,7 +147,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "الدار البيضاء ـ سطات",
-        number: 190
+        number: 207
     },
     {
         region: "درعة ـ تافيلالت",
@@ -190,4 +190,4 @@ var geographiqueDistribution = [{
         number: 47
     }
 ]
-var testedCases=2815;
+var testedCases=2916;
