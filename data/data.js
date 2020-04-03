@@ -36,7 +36,8 @@ var dates = [
     "أبريل 5, 2020",
     "أبريل 6, 2020",
     "أبريل 7, 2020",
-    "أبريل 8, 2020"
+    "أبريل 8, 2020",
+    "أبريل9, 2020"
 ];
 var cases = [
     1,
@@ -70,7 +71,8 @@ var cases = [
     556,
     617,
     654,
-    708
+    708,
+    791
 
 ];
 var deaths = [
@@ -105,7 +107,8 @@ var deaths = [
     33,
     36,
     39,
-    44
+    44,
+    48
 ];
 var recoverd = [
     0,
@@ -139,19 +142,20 @@ var recoverd = [
     15,
     24,
     29,
-    31
+    31,
+    57
 ];
 var geographiqueDistribution = [{
         region: "بني ملال ـ خنيفرة",
-        number: 23
+        number: 25
     },
     {
         region: "الدار البيضاء ـ سطات",
-        number: 207
+        number: 226
     },
     {
         region: "درعة ـ تافيلالت",
-        number: 20
+        number: 31
     },
     {
         region: "الداخلة ـ وادي الذهب",
@@ -159,7 +163,7 @@ var geographiqueDistribution = [{
     },
     {
         region: "فاس ـ مكناس",
-        number: 113
+        number: 117
     },
     {
         region: "كيلميم ـ واد نون",
@@ -167,27 +171,27 @@ var geographiqueDistribution = [{
     },
     {
         region: "العيون ـ الساقية الحمراء",
-        number: 2
+        number: 4
     },
     {
         region: "مراكش ـ أسفي",
-        number: 127
+        number: 129
     },
     {
         region: "الشرق",
-        number: 35
+        number: 39
     },
     {
         region: "الرباط ـ سلا ـ القنيطرة",
-        number: 115
+        number: 142
     },
     {
         region: "سوس ماسة",
-        number: 18
+        number: 19
     },
     {
         region: "طنجة ـ تطوان ـ الحسيمة",
-        number: 47
+        number: 58
     }
 ]
-var testedCases=2916;
+var testedCases=3119;
